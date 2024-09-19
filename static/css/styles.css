@@ -1,0 +1,43 @@
+.gradient-anim
+{
+    height:300px;
+    width:300px;
+    font-size:30px;
+    /* background: rgb(7,238,102); */
+    background: url("https://blog.digitalinfobytes.com/wp-content/uploads/2022/06/software-for-healthcare-organizations-scaled.jpg");
+    background-size: cover;
+    
+    
+    /* -webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+    animation: Animation 5s ease infinite; */
+}
+
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:76% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:76% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+
+/* .gradient-fill {
+    background: rgb(7,238,102);
+    background: linear-gradient(207deg, rgba(7,238,102,1) 56%, rgba(6,249,13,1) 100%, rgba(0,212,255,1) 100%); 
+} */
+
+.pointercur {
+    cursor: pointer;
+}
+
+
+
+
